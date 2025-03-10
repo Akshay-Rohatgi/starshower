@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "root:password" | chpasswd
+echo "root:Password123!" | chpasswd
 
 if ! grep -q -Fx "Include /etc/ssh/sshd_config.d/*.conf" /etc/ssh/sshd_config; then
   echo "Include /etc/ssh/sshd_config.d/*.conf" >> /etc/ssh/sshd_config
